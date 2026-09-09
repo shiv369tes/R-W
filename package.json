@@ -1,0 +1,16 @@
+{
+  "name": "reporting-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/test_ingestion.js",
+    "trial": "node trial/run_trial.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

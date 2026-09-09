@@ -1,0 +1,19 @@
+data_ingestion:
+  missing_threshold: 0.8   # drop column if null % exceeds this
+  impute_threshold: 0.1    # impute (rather than leave) if null % exceeds this
+  outlier_method: iqr      # 'iqr' or 'zscore'
+  zscore_threshold: 3
+  auto_clean: false        # if true, ingest_and_profile() also returns a cleaned df
+
+insight_generation:
+  llm_provider: anthropic
+  model: claude-sonnet-4-6
+  max_insights: 10
+
+summary_generation:
+  tone: professional
+  max_length: 500
+
+presentation:
+  template: corporate
+  slides: [title, agenda, metrics, insights, recommendations, appendix]

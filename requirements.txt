@@ -1,0 +1,7 @@
+# Core module has ZERO required dependencies (CSV/JSON parsing is hand-rolled).
+#
+# Optional, only if you need these:
+#   npm install xlsx        # Excel (.xlsx/.xls) support
+#   npm install pg          # if you write a Postgres `adapter` for DB sources
+#   npm install mysql2      # if you write a MySQL `adapter` for DB sources
+#   npm install js-yaml     # if you want to load config.yaml directly (see config.yaml)
